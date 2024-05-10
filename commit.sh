@@ -1,5 +1,7 @@
 #! /bin/bash
 
+set -ex
+
 image=${1}
 tmp_image=${image#*\/}
 gen_image=${tmp_image//[\/:]/-}
